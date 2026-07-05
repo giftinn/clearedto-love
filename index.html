@@ -240,8 +240,8 @@ pointer-events:none;
 
 <!-- welcome -->
 <section class="card active">
-<h1>I belong to You</h1>
-<p>Special present For someone i love the most.</p>
+<h1>4MY ZAHEER.</h1>
+<p>I put my heart into this. All that's left is for you to unlock it!</p>
 <button onclick="next()">Unlock</button>
 </section>
 
@@ -282,7 +282,7 @@ Points: <span id="score">0</span> / 3
 <!-- final -->
 <section class="card">
 
-<h1>Between Us in Paris</h1>
+<h1>Where my heart belongs.</h1>
 
 <div class="lovebox">
 <div class="timer-title">TIME WITH YOU</div>
@@ -336,7 +336,7 @@ if(page===2)loadQuestion();
 ================================================= */
 
 let pinInput = '';
-const correctPin = '2505';
+const correctPin = '0606';
 const pinDisplay = document.getElementById("pin");
 
 function renderDots(){
@@ -384,9 +384,9 @@ function checkPin(){
 ================================================= */
 
 const questions=[
-{q:"When did our story begin?", options:["January","May","March"],correct:1},
-{q:"Who loves the most?", options:["You","100% me","Both"],correct:2},
-{q:"What’s on my mind most of the time?", options:["Game","Someone else","You"],correct:2}
+{q:"When did we first meet?", options:["April","May","June"],correct:1},
+{q:"How much do I want us to last?", options:["For a while","As long as we can"," as long as life lets us."],correct:2},
+{q:"How much of my heart belongs to you?", options:["Half","Most of it","Every single piece."],correct:2}
 ];
 
 let currentQ = 0;
@@ -451,7 +451,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2025-05-25T00:00:00");
+    const start = new Date("2026-06-06T00:00:00");
 
     setInterval(()=>{
 
@@ -486,7 +486,21 @@ function revealMemory(el){
     `;
 
     const text = `
-        I love you because you actually put effort into loving me. I love you because nobody has ever given me the love that you have given me and you are the only one that could ever love me this way. I love you because you always make me feel like I am worth something. I love you because you have a nurturing nature and you take care of me, especially on days that I need love the most. I love you because you make me smile when I have almost forgotten how to. I love you because you have a huge and honest heart. I love you and every little detail about you. I love you because you are simply you.
+    happy 1st monthsary, zaheer. i know this isn't exactly how we imagined spending our first month together, but i'm still grateful that we're here, still choosing each other.
+
+    i hope this is only the beginning of many more months we'll celebrate together with more laughter, more understanding, healthier communication and lots of happy memories.
+    
+    sometimes i look at us and realize... love was never just about the sweet moments. it's also the misunderstandings, the tears, the long conversations that leave us emotionally exhausted, the nights where we question everything, and the days we choose to stay anyway.
+    
+    i've learned that loving someone isn't about never making mistakes. it's about having the courage to admit them, to grow from them and to keep choosing each other even when things aren't easy.
+    
+    we've laughed until our stomachs hurt, we've comforted each other on our worst days, we've argued, we've cried and we've found our way back more than once.
+    
+    maybe that's what makes us... us.
+    
+    not because we're perfect, but because even after all the disappointment, fear, and misunderstandings, there's still a part of us that quietly whispers, thank you for staying, for loving me and for not giving up on us.
+    
+    "here's to our first month... and to many more with you. i love you so much. i'm still here." 🤍  
     `;
 
     const paragraphs = text.trim().split(/\n\s*\n/);
